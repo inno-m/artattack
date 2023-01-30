@@ -337,7 +337,7 @@ nav{
 }
 
 .menu ul a:hover{
-    color: #008080;
+    color: black;
 }
 .menu ul a{
     
@@ -349,7 +349,7 @@ nav{
     font-size: 1em;
 }
 .profile a:hover{
-    color: #008080;
+    color: black;
 }
 
     
