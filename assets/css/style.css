@@ -203,6 +203,11 @@ nav{
     text-decoration: none;
     color: white;
     margin: 1em;
+    font-size: 1.1em;
+
+}
+.menu ul a:hover{
+    color: #008080;
 }
 
 
@@ -215,6 +220,10 @@ nav{
     color: whitesmoke;
     text-decoration: none;
     margin: 0 .5em;
+    font-size: 1.1em;
+}
+.profile a:hover{
+    color: #008080;
 }
 
 
@@ -327,7 +336,21 @@ nav{
     
 }
 
+.menu ul a:hover{
+    color: #008080;
+}
+.menu ul a{
+    
+    font-size: 1em;
 
+}
+
+.profile a{
+    font-size: 1em;
+}
+.profile a:hover{
+    color: #008080;
+}
 
     
 }
