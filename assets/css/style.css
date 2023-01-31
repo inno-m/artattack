@@ -363,7 +363,7 @@ nav{
 /* smaller tablets */
 @media (max-width:576px){
     main{
-        height: 95vh;
+        height: 100vh;
         padding: 1em;
         
     }
