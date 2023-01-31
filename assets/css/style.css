@@ -316,10 +316,11 @@ nav{
 }
 
 .grid-container .grid-content{
-    
     outline: 1px solid red;
-    padding: 80px 50px;
+    padding: 50px 50px;
     margin: 10px;
+    background-color: #0005;
+    border-radius: 5px;
     
 }
 
@@ -396,7 +397,7 @@ nav{
         padding: 2em 4em;
     }
     .menuitems ul a, .profile a{
-        margin-block: 0.5em;
+        margin-block: 1em;
     }
     .hamburger{
         display: flex;
