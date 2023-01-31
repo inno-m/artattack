@@ -427,18 +427,17 @@ nav{
         
         
     }  
-    .maincontent{
-        margin-top: 80%;
-    }
+    
     .maincontent h1{
-        font-size: 3em;
+        font-size: 5em;
+        font-weight: 100;
     
     }
     
     
     
     .maincontent p{
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
 }
