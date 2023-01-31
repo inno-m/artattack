@@ -299,6 +299,22 @@ nav{
 /* MEDIA QUERIES */
 
 /* big screens */
+@media (min-width:1200px){
+    
+    .main{
+        width: 25%;
+        /* height: 60%; */
+        position: relative     
+    
+    }
+    .maincontent{
+        color: whitesmoke;
+        padding: 0 1em;
+        width: 65%;
+    }
+    
+    
+}
 @media (min-width:992px){
     
     .main{
@@ -307,6 +323,7 @@ nav{
         position: relative     
     
     }
+
     
 }
 
@@ -410,7 +427,19 @@ nav{
         
         
     }  
-
+    .maincontent{
+        margin-top: 80%;
+    }
+    .maincontent h1{
+        font-size: 3em;
+    
+    }
+    
+    
+    
+    .maincontent p{
+        font-size: 1.2em;
+    }
 
 }
 
