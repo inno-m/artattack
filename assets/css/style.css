@@ -312,7 +312,7 @@ nav{
     width: 90%;
     height: 80vh;
     grid-template-columns: auto auto auto;  /* auto reps number of columns */
-    
+    margin-top: 5%;
 }
 
 .grid-container .grid-content{
