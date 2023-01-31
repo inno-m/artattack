@@ -317,8 +317,8 @@ nav{
 
 .grid-container .grid-content{
     outline: 1px solid red;
-    padding: 50px 50px;
-    margin: 10px;
+    padding: 100px 55px;
+    margin: .5em;
     background-color: #0005;
     border-radius: 5px;
     
