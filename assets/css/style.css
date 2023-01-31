@@ -363,13 +363,9 @@ nav{
 /* smaller tablets */
 @media (max-width:576px){
     main{
-        /* display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100vh; */
-        padding: 1.2em;
+        
+        padding: 1em;
+        
     }
     .main{
         width: 65%;
