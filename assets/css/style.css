@@ -221,7 +221,7 @@ nav{
     color: whitesmoke;
     text-decoration: none;
     margin: 0em 0.5em ;
-    font-size: 1.4em;
+    font-size: 1.2em;
     transition: 0.3s ease;
 
 }
@@ -348,9 +348,7 @@ nav{
 
 }
 
-.profile a{
-    font-size: 1em;
-}
+
 .profile a:hover{
     color: black;
 }
@@ -396,7 +394,7 @@ nav{
     }
 
     .profile a{
-    font-size: 1.4em;
+    font-size: 1.2em;
 
     }
 
