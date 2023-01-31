@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
 
@@ -146,7 +147,7 @@ input:focus{
 
 /* LANDING PAGE CSS */
 
-section{
+.sec-1{
     height: 100vh;
     width: 100%;
     display: flex;
@@ -274,6 +275,7 @@ nav{
 
 .maincontent h1{
     font-size: 7em;
+    font-weight: 100;
 
 }
 
@@ -285,8 +287,36 @@ nav{
     font-size: 1.5em;
 }
 
+/* Section Two */
 
+.sec-2{
+    background-image: url("../img/bg3.jpg");
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.grid-container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    outline: 1px solid red;
+    width: 90%;
+    height: 80vh;
+    grid-template-columns: auto auto auto;
+    
+}
+
+.grid-container .grid-content{
+    
+    outline: 1px solid red;
+    padding: 80px 50px;
+    margin: 10px;
+    
+}
 
 
 
