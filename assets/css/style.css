@@ -311,7 +311,10 @@ nav{
     outline: 1px solid red;
     width: 90%;
     height: 80vh;
-    grid-template-columns: auto auto auto;  /* auto reps number of columns */
+    /*grid-template-columns: auto auto auto;  /* auto reps number of columns */
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    /* gap: 10px; */
+    overflow-y: scroll;
 }
 
 .grid-container .grid-content{
