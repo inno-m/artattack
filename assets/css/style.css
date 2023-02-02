@@ -319,15 +319,19 @@ nav{
 }
 
 .grid-container .grid-content{
-    outline: 1px solid red;
-    /* padding: 100px 55px; */
-    margin: .5em;
+    outline: 1px solid green;
+    /* padding: 1000px 55px; */
+    margin: .5em ;
     background-color: #0005;
     border-radius: 10px;
     
+    
 }
 
-
+.grid-content img{
+    height: 50%;
+    width: 100%;    
+}
 
 
 
