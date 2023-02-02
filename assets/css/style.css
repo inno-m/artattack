@@ -534,7 +534,7 @@ nav{
         width: 90%;
         height: 80vh;
         /*grid-template-columns: auto auto auto;  /* auto reps number of columns */
-        grid-template-columns: repeat(auto-fit, 186px);
+        grid-template-columns: repeat(auto-fit, 50%);
         /* gap: 10px; */
         overflow-y: scroll;
     }
