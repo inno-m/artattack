@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     /* outline: 2px solid red; */
+    scroll-behavior: smooth;
 }
 
 body{
@@ -518,6 +519,8 @@ nav{
     font-size: 1.2em;
 
     }
+
+    
     .grid-container{
         margin-top: 15%;      
         
