@@ -306,8 +306,8 @@ nav{
 
 .grid-container{
     display: grid;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     outline: 1px solid red;
     width: 90%;
     height: 80vh;
@@ -319,7 +319,7 @@ nav{
 
 .grid-container .grid-content{
     outline: 1px solid red;
-    padding: 100px 55px;
+    /* padding: 100px 55px; */
     margin: .5em;
     background-color: #0005;
     border-radius: 10px;
@@ -366,18 +366,14 @@ nav{
     }
 
     .grid-container .grid-content{
-        padding: 6em 10em;
-        margin: .5em;
-        
+        padding: 1em;
     }
 
     
 }
 @media (max-width:990px){
     .grid-container .grid-content{
-        padding: 6em 7em;
-        margin: .5em;
-        
+        padding: 1em;
     }
 }
 
@@ -464,9 +460,7 @@ nav{
 
 
 .grid-container .grid-content{
-    padding: 6.5em 5em;
-    margin: .5em;
-    
+    padding: 1em;
 }
 }
 
@@ -503,9 +497,7 @@ nav{
     }
 
     .grid-container .grid-content{
-        padding: 6em 4.5em;
-        margin: .5em;
-        
+        padding: 1em;
     }
 
 }
@@ -531,9 +523,20 @@ nav{
         
     }
     .grid-container .grid-content{
-        padding: 6.5em 3.5em;
-        margin: .5em;
+        padding: 1em;
         
+    }
+    .grid-container{
+        display: grid;
+        /* align-items: center;
+        justify-content: center; */
+        outline: 1px solid red;
+        width: 90%;
+        height: 80vh;
+        /*grid-template-columns: auto auto auto;  /* auto reps number of columns */
+        grid-template-columns: repeat(auto-fit, 186px);
+        /* gap: 10px; */
+        overflow-y: scroll;
     }
 }
 
@@ -547,9 +550,7 @@ nav{
     }
 
     .grid-container .grid-content{
-        padding: 6.5em 3.5em;
-        margin: .5em;
-        
+        padding: 1em;
     }
 }
 
