@@ -310,7 +310,7 @@ nav{
 
 /* Section Two */
 
-.sec-2{
+.sec-2, .sec-3{
     background-image: url("./background/1441222.jpg");
     background-color: whitesmoke;
     
@@ -401,7 +401,13 @@ nav{
 
 }
 
-
+.grid-container-2{
+    display: grid;
+    width: 70%;
+    height: 80vh;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    grid-auto-rows: 50%;
+}
 
 
 
@@ -520,6 +526,15 @@ nav{
 }
 
 
+.grid-container-2{
+    display: grid;
+    width: 70%;
+    height: 60vh;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    grid-auto-rows: 40%;
+}
+
+
 
 }
 
@@ -557,8 +572,8 @@ nav{
 
 
     .maincontent a button{
-        transform: translateX(50%);   /* moves the button to the centre */
-        margin-top: 20%;        
+        margin-top: 20%;  
+        margin-left: 25%;      
     }
 
 }
