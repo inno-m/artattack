@@ -170,6 +170,7 @@ nav{
 
     top: 0;
 
+    
     background-color: #0005; /*transparent background*/
     line-height: 5px;
 }
@@ -351,6 +352,8 @@ nav{
     color: white;
     font-weight: 200;
 }
+
+
 
 
 .grid-content h4{
@@ -569,6 +572,7 @@ nav{
     .sec-2 span{
         margin-top: 15%;
         margin-bottom: 0;
+        font-weight: 300;
     }
 }
 
