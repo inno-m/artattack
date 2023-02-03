@@ -350,25 +350,33 @@ nav{
     color: white;
 }
 
+
 .grid-content h4{
     color: #008080;
     font-size: 20px;
+    align-self: baseline;
+    
 }
 .grid-content .extras{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-self: center;
+    /* align-self: baseline; */
+    margin: .5em 0;
+
     padding: 0 .5em;
 }
 .grid-content .stars{
     font-size: 10px;
     color: goldenrod;
+    align-self: center;
 }
 
 .grid-content .cart{
     font-size: 1.2em;
     color: #008080;
+    align-self: baseline;
+
 }
 
 
