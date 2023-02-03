@@ -305,7 +305,7 @@ nav{
 
 .grid-container{
     display: grid;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     width: 90%;
     height: 80vh;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -318,7 +318,7 @@ nav{
 }
 
  .grid-content{
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
     margin:  .5em  ;
     background-color: #0005;
     border-radius: 10px;
