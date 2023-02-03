@@ -290,13 +290,30 @@ nav{
     font-size: 1.5em;
 }
 
+.maincontent a button{
+    padding: .5em 2em;
+    margin-top: 2em;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 7px;
+    font-size: 1.2em;
+    transition: .3s ease;
+}
+
+.maincontent a button:hover{
+    
+    color: #008080;
+    background: white;
+   
+}
+
 /* Section Two */
 
 .sec-2{
     background-image: url("./background/1441222.jpg");
     background-color: whitesmoke;
-    /* background-position: center; */
-    /* background-size: cover; */
+    
     height: 100vh;
     width: 100%;
     display: flex;
@@ -538,6 +555,11 @@ nav{
         font-size: 1em;
     }
 
+
+    .maincontent a button{
+        transform: translateX(50%);   /* moves the button to the centre */
+        margin-top: 20%;        
+    }
 
 }
 
