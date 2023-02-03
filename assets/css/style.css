@@ -321,10 +321,10 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.sec-2 span{
+.sec-2 span, .sec-3 span{
     font-size: 2em;
     font-weight: 200;
-    color: #008080;
+    color: darkslategray;
     margin: .5em;
 }
 
@@ -408,6 +408,24 @@ nav{
     grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
     grid-auto-rows: 50%;
 }
+
+.grid-container-2 .grid-content{
+    border: 1px solid whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
