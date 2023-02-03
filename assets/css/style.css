@@ -293,7 +293,7 @@ nav{
 /* Section Two */
 
 .sec-2{
-    /* background-image: url("../img/bg4.jpg"); */
+    background-image: url("../img/bg5.jpg");
     background-color: whitesmoke;
     background-position: center;
     background-size: cover;
@@ -328,7 +328,8 @@ nav{
 
  .grid-content{
     margin:  .5em  ;
-    background-color: #0005;
+    background-color: #0009;
+    /* backdrop-filter: blur(2px); */
     border-radius: 10px;
     padding: .5em;
 
