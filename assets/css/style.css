@@ -305,10 +305,11 @@ nav{
 }
 .sec-2 span{
     font-size: 2em;
-    font-weight: 500;
+    font-weight: 200;
     color: #008080;
     margin: .5em;
 }
+
 
 .grid-container{
     display: grid;
@@ -355,6 +356,7 @@ nav{
     color: #008080;
     font-size: 20px;
     align-self: baseline;
+    font-weight: 100;
     
 }
 .grid-content .extras{
@@ -364,7 +366,7 @@ nav{
     /* align-self: baseline; */
     margin: .5em 0;
 
-    padding: 0 .5em;
+    padding: 0 ;
 }
 .grid-content .stars{
     font-size: 10px;
