@@ -349,6 +349,7 @@ nav{
 .grid-content p{
     padding: .1em;
     color: white;
+    font-weight: 200;
 }
 
 
@@ -356,7 +357,7 @@ nav{
     color: #008080;
     font-size: 20px;
     align-self: baseline;
-    font-weight: 100;
+    font-weight: 300;
     
 }
 .grid-content .extras{
