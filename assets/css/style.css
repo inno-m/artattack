@@ -339,7 +339,7 @@ nav{
 }
 
 
-.grid-container::-webkit-scrollbar{
+.grid-container, .grid-container-3::-webkit-scrollbar{
     display: none;
 }
 
@@ -441,9 +441,7 @@ nav{
 
 /* contact us */
 
-.sec-4 span{
-    
-}
+
 .grid-container-3 .grid-content .img i{
     font-size: 40px;
     color: whitesmoke;
@@ -694,7 +692,7 @@ nav{
     
     .grid-container-3{
         
-        margin-top: 50%;
+        margin-top: 40%;
         /* padding: 2em; */
     }
     
