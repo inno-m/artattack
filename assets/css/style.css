@@ -675,7 +675,7 @@ nav{
         height: 90vh;
         grid-template-columns: repeat(auto-fit, 50%);
         overflow-y: scroll;
-        grid-auto-rows: 40%;
+        grid-auto-rows: 30%;
     }
     .grid-container-3{
         grid-auto-rows: 45%;
