@@ -396,6 +396,12 @@ nav{
     align-self: baseline;
 
 }
+.grid-content .cart:hover{
+    font-size: 1.2em;
+    color: whitesmoke;
+    align-self: baseline;
+
+}
 
 .grid-container-2{
     display: grid;
