@@ -53,7 +53,7 @@ $(document).ready(()=>{
 
                 </span>
                 
-                <h4>${price}</h4>
+                <h4>$${price}.00</h4>
 
                 <span class="cart">
                     <i class="fa-solid fa-cart-plus"></i>
