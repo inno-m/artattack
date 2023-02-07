@@ -405,9 +405,12 @@ nav{
 
 
 .container-header  i{
-    margin-top: 1em;
+    margin-top: .5em;
     color: whitesmoke;
     
+}
+.container-header{
+ /* background-color: darkslategray; */
 }
 
 .container-header  i:hover{
