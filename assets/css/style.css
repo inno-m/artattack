@@ -806,10 +806,7 @@ nav{
         border-radius: 5px;
     }
 
-    .container-header{
-        margin-top: 0;
-    }
-
+    
 }
 
 
@@ -864,8 +861,10 @@ nav{
     }
     
     #container-header{
-        margin-top: 15%;
+        margin-top: 5%;
     }
+
+    
 }
 
 
