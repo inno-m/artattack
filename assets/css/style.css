@@ -774,7 +774,7 @@ nav{
     }
 
     .sec-2{
-        height: 120vh;
+        height: 115vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -861,10 +861,12 @@ nav{
     }
     
     #container-header{
-        margin-top: 5%;
+        /* margin-top: 2%; */
     }
 
-    
+    .grid-container{
+        height: 25vh;
+    }
 }
 
 
