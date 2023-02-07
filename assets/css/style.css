@@ -736,8 +736,9 @@ nav{
         /* padding: 2em; */
     }
 
-    .grid-container{
+    .grid-content{
         height: 25vh;
+        width: 90%;
     }
     
     #container-header{
