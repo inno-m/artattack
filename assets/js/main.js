@@ -4,10 +4,13 @@ $(document).ready(()=>{
         $(".hamburger").toggleClass("active")
         $(".menuitems").toggleClass("active")
 
-    })
+    });
 
-    // missing code
-
+    // hamburger disappears on click
+        $('[class=menuItems]').on('click',()=>{
+        $(".hamburger").toggleClass("active");
+         $(".menuitems").toggleClass("active")
+    });
 
     // marketplace
     var products = [
