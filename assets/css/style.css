@@ -555,7 +555,7 @@ nav{
     width: 99%;
     padding: 1em;
     background-color: #008080;
-    margin-top: 20%;
+    margin-top: 25%;
     /* border: 1px solid blue; */
 
     /* display: flex; */
@@ -581,20 +581,20 @@ nav{
 .newstext h4{
     font-size: 1.1em;
     color: whitesmoke;
-    font-weight: 100;
+    font-weight: 400;
 
 }
 
 .newstext p{
     font-size: 1em;
     color: whitesmoke;
-    font-weight: 100;
+    font-weight: 400;
 
 
 }
 .newstext span{
     color: #ffbd27;
-    font-weight: 100;
+    font-weight: 400;
 
 }
 
@@ -610,7 +610,7 @@ nav{
     color: #008080;
     width: 70%;
     border-radius: 5px;
-    font-weight: 100;
+    font-weight: 300;
     font-size: .8em;
 
 }
@@ -687,7 +687,7 @@ footer{
 .column h4{
     margin-top: 1em;
     margin-bottom: .4em;
-    font-weight: 100;
+    font-weight: 400;
 }
 .more{
     display: flex;
