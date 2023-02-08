@@ -551,57 +551,76 @@ nav{
 
  /* Newsletter --- */
  #newsletter{
-    height: 20vh;
-    width: 100%;
-    /* padding: 1em; */
+    height: 15vh;
+    width: 99%;
+    padding: 1em;
     background-color: #008080;
-    margin-top: 25%;
+    margin-top: 15%;
+    border: 1px solid blue;
 
+    /* display: flex; */
+    /* flex-direction: column; */
+    padding: 2em 0;
+
+    bottom: 0;
 
  }
 
 .newstext{
-    width: 90%;
+    width: 100%;
     display: flex;
-    height: 50%;
+    height: 80%;
     flex-direction: column;   
-    /* align-items: center; */
+    /* align-items: ; */
     justify-content: center;
-    margin: 1em ;
+    margin: 0em .2em ;
+    /* border: 1px solid red; */
+
 }
 
 .newstext h4{
-    font-size: 1.5em;
+    font-size: 1.1em;
     color: whitesmoke;
+    font-weight: 100;
+
 }
 
 .newstext p{
     font-size: 1em;
     color: whitesmoke;
+    font-weight: 100;
+
 
 }
 .newstext span{
     color: #ffbd27;
+    font-weight: 100;
+
 }
 
 #newsletter form{
     width: 100%;
+    /* border: 1px solid red; */
+    height: 20%;
 }
 
 #newsletter input{
     background-color: whitesmoke;
-    padding: .5em 1em;
+    /* padding: .5em 1em; */
     color: #008080;
-    width: 60%;
+    width: 70%;
     border-radius: 5px;
+    font-weight: 100;
+    font-size: .8em;
+
 }
 
 #newsletter button{
-    padding: .4em 0;
+    padding: .6em 0;
     background-color: transparent;
     outline: 1px solid white;
     color: whitesmoke;
-    font-size: 1em;
+    font-size: .8em;
     border-radius: 5px;
     width: 20%;
     border: none;
@@ -631,18 +650,20 @@ footer{
     background-image: url("./background/1441222.jpg");
     display: flex;
     flex-direction: column;
-    /* height: 100vh */
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid red; */
     /* cursor: pointer; */
 }
 
 #logoname {
     display: flex;
     justify-content: start;
-    margin-top: 5%;
+    margin-top: 1%;
 }
 
 #logoname h5{
-    font-size: .8em;
+    font-size: .5em;
 }
 
 
@@ -653,13 +674,20 @@ footer{
 
 
 .column{
-    height: 60%;
+    height: 75vh;
+    /* width: 100%; */
+    /* border: 1px solid red; */
     margin: 1em ;
+    /* margin-top: 35% */
+    
+    /* background-image: url("./background/1441222.jpg"); */
+
 }
 
 .column h4{
     margin-top: 1em;
-    margin-bottom: .5em;
+    margin-bottom: .4em;
+    font-weight: 100;
 }
 .more{
     display: flex;
@@ -669,7 +697,7 @@ footer{
 
 
 .row img{
-    height: 50px;
+    height: 40px;
     width: 150px;
     margin-inline: .2em;
 }
@@ -677,12 +705,13 @@ footer{
 footer h4{
     font-size: 16px;
     color: darkslategrey;
-
+    font-weight: 100;
 }
 footer p{
     font-size: 15px;
     color: grey;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
+    font-weight: 100;
 
 }
 
@@ -710,7 +739,7 @@ footer .copyright{
     text-align: center;
     font-weight: 14px;
     color: darkslategrey;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 
