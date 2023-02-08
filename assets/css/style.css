@@ -657,7 +657,8 @@ footer{
 }
 
 .column h4{
-    margin-block: 1em;
+    margin-top: 1em;
+    margin-bottom: .5em;
 }
 .more{
     display: flex;
@@ -669,6 +670,7 @@ footer{
 .row img{
     height: 50px;
     width: 150px;
+    margin-inline: .2em;
 }
 
 footer h4{
@@ -707,7 +709,7 @@ footer .copyright{
     text-align: center;
     font-weight: 14px;
     color: darkslategrey;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 
