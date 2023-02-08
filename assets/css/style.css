@@ -555,7 +555,7 @@ nav{
     width: 99%;
     padding: 1em;
     background-color: #008080;
-    margin-top: 15%;
+    margin-top: 20%;
     border: 1px solid blue;
 
     /* display: flex; */
@@ -739,7 +739,7 @@ footer .copyright{
     text-align: center;
     font-weight: 14px;
     color: darkslategrey;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 
