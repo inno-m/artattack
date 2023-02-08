@@ -549,6 +549,170 @@ nav{
 
 
 
+
+
+ /* Newsletter --- */
+ 
+
+
+.footer{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./background/1441222.jpg");
+    
+}
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    align-items: center;
+
+    background-color: #008080;
+    height: 20vh;
+    width: 100%;
+    margin: 2em 0;
+    
+
+}
+
+
+.newstext{
+    margin: 2em;
+    width: 50%;
+}
+
+.column-1{
+    height: 80vh;
+}
+
+.column{
+    height: 60%;
+}
+/* .form{
+    margin: 0em;
+
+} */
+
+#newsletter h4{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+#newsletter p{
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 16px;
+}
+#newsletter span{
+    color: #ffbd27;
+}
+#newsletter input{
+    height: 2.5em;
+    width: 50%;
+    padding: .5em;
+    font-size: 14px;
+    background-color: whitesmoke;
+    color: #008080;
+    border-radius: 4px;
+    outline: none;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+#newsletter .form{
+    display: inline-block;
+    width: 50%;
+}
+#newsletter button{
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    align-self: center;
+    background-color: transparent;
+    color: whitesmoke;
+    font-weight: 700;
+    transition: 0.2s ease;
+  cursor: pointer;
+  padding: 8px 10px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+
+}
+#newsletter button:hover{
+    background-color: whitesmoke;
+    color: #008080;
+}
+
+
+
+/* footer section */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background-color: whitesmoke; */
+    padding: 40px 150px;
+    cursor: pointer;
+    height: 100vh;
+}
+footer .logo{
+    height:50px;
+     width:80px;
+     margin-bottom: 30px;
+}
+.row img{
+    height: 50px;
+    width: 150px;
+}
+footer .column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+
+}
+footer h4{
+    font-size: 16px;
+    color: darkslategrey;
+
+}
+footer p{
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 10px;
+
+}
+
+#logoname{
+    font-size: 1.7em;
+}
+
+.fa-brands{
+    font-size: 2em;
+    margin-block: .3em;
+    margin-inline: .1em;
+}
+footer a{
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 10px;
+    transition: 0.2s ease;
+}
+footer a:hover{
+    color: darkslategrey ;
+}
+footer .copyright{
+    width: 100%;
+    text-align: center;
+    font-weight: 14px;
+    color: darkslategrey;
+}
+
+
+
+
 /* contact us */
 
 
@@ -598,6 +762,8 @@ nav{
         position: relative     
     
     }
+
+    
 }
 
 /*  */
@@ -750,6 +916,18 @@ nav{
         
     }
 
+
+
+    #newsletter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+       
+    }
+    #newsletter .form {
+        display: inline-block;
+    }
 
 }
 
