@@ -659,7 +659,7 @@ footer{
 #logoname {
     display: flex;
     justify-content: start;
-    margin-top: 1%;
+    margin-top: 0%;
 }
 
 #logoname h5{
@@ -674,7 +674,7 @@ footer{
 
 
 .column{
-    height: 75vh;
+    height: 70vh;
     /* width: 100%; */
     /* border: 1px solid red; */
     margin: 1em ;
@@ -703,9 +703,9 @@ footer{
 }
 
 footer h4{
-    font-size: 16px;
+    font-size: 1em;
     color: darkslategrey;
-    font-weight: 300;
+    font-weight: 400;
 }
 footer p{
     font-size: 15px;
