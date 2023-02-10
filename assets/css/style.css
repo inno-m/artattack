@@ -654,8 +654,7 @@ footer{
     flex-direction: column;
     height: 100vh;
     width: 100%;
-    /* border: 1px solid red; */
-    /* cursor: pointer; */
+   
 }
 
 #logoname {
@@ -677,12 +676,9 @@ footer{
 
 .column{
     height: 70vh;
-    /* width: 100%; */
-    /* border: 1px solid red; */
-    margin: 1em ;
-    /* margin-top: 35% */
     
-    /* background-image: url("./background/1441222.jpg"); */
+    margin: 1em ;
+    
 
 }
 
