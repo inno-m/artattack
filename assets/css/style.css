@@ -1109,7 +1109,7 @@ footer .copyright{
 
     #newsletter{
         margin-top: 40%;
-        margin-bottom: 10%;
+        /* margin-bottom: 10%; */
         height: 40vh;
     }
 }
