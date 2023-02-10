@@ -1106,6 +1106,12 @@ footer .copyright{
         height: 25vh;
         margin-bottom: .5em;
     }
+
+    #newsletter{
+        margin-top: 40%;
+        margin-bottom: 10%;
+        height: 40vh;
+    }
 }
 
 
