@@ -347,18 +347,20 @@ nav{
 
 
 
-.grid-container{
+#grid-container{
     display: grid;
     width: 95%;
     height: 80vh;
-    grid-template-columns: repeat(21, 200px);
+    grid-auto-columns:  200px;
+    grid-auto-flow: column;
     grid-auto-rows: 100%;
-    overflow-Y: scroll;
-    /* gap: 0; */
+    overflow-x: scroll;
+    
 }
 
 #container-header{
-    margin-top: 0%;
+    margin-top: 5%;
+    /* margin-bottom: 8%; */
 }
 
 
@@ -369,29 +371,34 @@ nav{
     width: 95%;
     display: flex;
     justify-content: space-between;
-    /* margin-top: 5em; */
+    margin-top: .2em;
     border-radius: 8px;
 }
 
 .category-list{
+    outline: 1px solid red;
     color: white;
-    padding: .5em;
+    padding: 0 .5em;
     display: flex;
     flex-direction: column;
-    height: 60%;
+    /* height: 6%; */
     justify-content: center;
+    /* margin-bottom: 5%; */
     border: 1px solid darkslategray;
     border-radius: 8px;
 }
 
 .category-list ul{
     list-style: none;
+    margin-bottom: 11%;
+    
 }
 
 .category-list li{
-    padding: .4em .2em;
+    /* padding: 5em .2em; */
     font-size: 1.1em;
-    /* transition: .3s ease; */
+    transition: .3s ease;
+    align-self: center;
     /* outline: none; */
 }
 
@@ -418,6 +425,9 @@ nav{
 
 
 .grid-container::-webkit-scrollbar, .grid-container-3::-webkit-scrollbar{
+    display: none;
+}
+#grid-container::-webkit-scrollbar, .grid-container-3::-webkit-scrollbar{
     display: none;
 }
 
