@@ -952,6 +952,7 @@ footer .copyright{
     .category-list li{
         display: flex;
 
+        align-self: center;
        
         width: 100%;
         outline: 1px solid #008080;
@@ -960,8 +961,8 @@ footer .copyright{
         /* margin-bottom: .2em; */
         /* margin-top: .2em; */
         border-radius: 5px;
-        font-size: .8em;
-        font-weight: 600;
+        font-size: 1em;
+        font-weight: 500;
     
     }
 
