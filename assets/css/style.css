@@ -953,7 +953,7 @@ footer .copyright{
         display: flex;
 
         align-self: center;
-       
+       /* height: auto; */
         width: 100%;
         outline: 1px solid #008080;
         margin: 0.5em;
@@ -962,7 +962,7 @@ footer .copyright{
         margin-top: .2em;
         border-radius: 5px;
         font-size: 0.9em;
-        font-weight: 500;
+        font-weight: 300;
     
     }
 
