@@ -40,7 +40,8 @@ main{
     height: 80%;
     position: relative;
     border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 1); 
+    outline: 1px solid rgba(255, 255, 255, 1); 
+    /* box-shadow: ; */
 }
 
 
