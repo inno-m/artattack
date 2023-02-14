@@ -471,7 +471,7 @@ $(document).ready(()=>{
     let carsPhotography = photography.filter(e =>e.id=='cars')
     let carspainting = painting.filter(e =>e.id=='cars')
     let landscape = products.filter(e =>e.id=='landscape')
-    let landscapePhotography = photography.filter(e =>e.id=='landscape')
+    let landscapePhotography = photography.filter(e =>e.id=='landscape  ')
     let landscapepainting = painting.filter(e =>e.id=='landscape')
     
 
