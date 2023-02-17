@@ -550,46 +550,44 @@ nav{
 
 
 
-
-
  /* Newsletter --- */
  #newsletter{
-    height: 15vh;
-    width: 99%;
+    height: 25vh;
+    width: 100%;
     padding: 1em;
     background-color: #008080;
-    margin-top: 25%;
+    margin-top: 5%;
     /* border: 1px solid blue; */
 
-    /* display: flex; */
+    display: flex;
     /* flex-direction: column; */
-    padding: 2em 0;
+    padding: 2em 3em;
 
-    bottom: 0;
+    /* bottom: 0; */
 
  }
 
 .newstext{
     width: 100%;
     display: flex;
-    height: 80%;
+    /* height: 80%; */
     flex-direction: column;   
-    /* align-items: ; */
+    /* align-items: center; */
     justify-content: center;
-    margin: 0em .2em ;
+    /* margin: 0em .2em ; */
     /* border: 1px solid red; */
 
 }
 
 .newstext h4{
-    font-size: 1.1em;
+    font-size: 1.2em;
     color: whitesmoke;
     font-weight: 400;
 
 }
 
 .newstext p{
-    font-size: 1em;
+    font-size: 1.2em;
     color: whitesmoke;
     font-weight: 400;
 
@@ -604,14 +602,15 @@ nav{
 #newsletter form{
     width: 100%;
     /* border: 1px solid red; */
-    height: 20%;
+    align-self: center;
+    /* height: 80%; */
 }
 
 #newsletter input{
     background-color: whitesmoke;
     /* padding: .5em 1em; */
     color: #008080;
-    width: 70%;
+    width: 50%;
     border-radius: 5px;
     font-weight: 300;
     font-size: .8em;
@@ -644,8 +643,17 @@ nav{
 
 
 
+.grid-container-3 .grid-content .img i{
+    font-size: 40px;
+    color: whitesmoke;
+    
+}
 
-
+.grid-container-3 .grid-content  iframe{
+    width: 100%;
+    height: 100%;
+    
+}
 
 
 /* footer section */
@@ -665,21 +673,39 @@ footer{
 }
 
 #logoname h5{
-    font-size: .5em;
+    font-size: 1em;
+    margin-left: 3em;
+    margin-top: 2%;
 }
 
 
 .about-account{
     display: flex;
     justify-content: space-between;
+    /* margin-inline: 8em; */
+    /* outline: 1px solid red; */
+    /* flex-direction:column ; */
+    width: 25%;
+}
+
+
+.big-screen{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    /* margin-inline: 5em; */
+    margin: 0 5em;
+
+
 }
 
 
 .column{
     height: 70vh;
-    
-    margin: 1em ;
-    
+    width: 100%;
+    /* margin:  2em 10em ; */
+    /* display: flex; */
+    margin-top: 5%;
 
 }
 
@@ -702,7 +728,7 @@ footer{
 }
 
 footer h4{
-    font-size: 1em;
+    font-size: 1.2em;
     color: darkslategrey;
     font-weight: 400;
 }
@@ -741,6 +767,9 @@ footer .copyright{
     margin-top: 5%;
 }
 
+
+
+ 
 
 
     
@@ -975,12 +1004,224 @@ footer .copyright{
         margin-top: 5%;
     }
     
-    footer{
-        height: 100vh;
-        width:100%;
-        padding:0;
-        margin:0;
-    }
+    
+
+
+    /* Newsletter --- */
+ #newsletter{
+    height: 15vh;
+    width: 99%;
+    padding: 1em;
+    background-color: #008080;
+    margin-top: 25%;
+    /* border: 1px solid blue; */
+
+    display: flex;
+    flex-direction: column;
+    padding: 2em 0;
+
+    bottom: 0;
+
+ }
+
+.newstext{
+    width: 100%;
+    display: flex;
+    height: 80%;
+    flex-direction: column;   
+    /* align-items: ; */
+    justify-content: center;
+    margin: 0em .2em ;
+    /* border: 1px solid red; */
+
+}
+
+.newstext h4{
+    font-size: 1.1em;
+    color: whitesmoke;
+    font-weight: 400;
+
+}
+
+.newstext p{
+    font-size: 1em;
+    color: whitesmoke;
+    font-weight: 400;
+
+
+}
+.newstext span{
+    color: #ffbd27;
+    font-weight: 400;
+
+}
+
+#newsletter form{
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 20%;
+}
+
+#newsletter input{
+    background-color: whitesmoke;
+    /* padding: .5em 1em; */
+    color: #008080;
+    width: 70%;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: .8em;
+
+}
+
+#newsletter button{
+    padding: .6em 0;
+    background-color: transparent;
+    outline: 1px solid white;
+    color: whitesmoke;
+    font-size: .8em;
+    border-radius: 5px;
+    width: 20%;
+    border: none;
+} 
+
+
+#newsletter button:hover{
+    color: #008080;
+    background-color: whitesmoke;
+    outline: none;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer section */
+footer{
+    background-image: url("./background/1441222.jpg");
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+   
+}
+
+#logoname {
+    display: flex;
+    justify-content: start;
+    margin-top: 0%;
+}
+
+#logoname h5{
+    font-size: .5em;
+}
+
+
+.about-account{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.column{
+    height: 70vh;
+    /* outline: 1px solid red; */
+    /* margin: 1em ; */
+
+    
+    
+
+}
+
+.column h4{
+    margin-top: 1em;
+    margin-bottom: .4em;
+    font-weight: 400;
+}
+
+.about-account{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    /* margin-inline: 8em; */
+    /* outline: 1px solid red; */
+    /* flex-direction:column ; */
+    width: 100%;
+}
+
+
+.big-screen{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* margin-inline: 5em; */
+    margin: 0 2em;
+
+
+}
+
+.more{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.row img{
+    height: 40px;
+    width: 150px;
+    margin-inline: .2em;
+}
+
+footer h4{
+    font-size: 1em;
+    color: darkslategrey;
+    font-weight: 400;
+}
+footer p{
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 1em;
+    font-weight: 300;
+
+}
+
+#logoname h5{
+    font-size: .9em;
+    /* outline: 1px solid red; */
+    margin: 0 1em ;
+}
+
+.fa-brands{
+    font-size: 1.8em;
+    margin-block: .3em;
+    margin-inline: .1em;
+}
+footer a{
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    margin-bottom: .2em;
+    transition: 0.2s ease;
+}
+footer a:hover{
+    color: darkslategrey ;
+}
+footer .copyright{
+    width: 100%;
+    text-align: center;
+    font-weight: 14px;
+    color: darkslategrey;
+    margin-top: 5%;
+}
+
 
 
 
