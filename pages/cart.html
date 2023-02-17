@@ -4,127 +4,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
+    <title>My Cart</title>
+
     <link rel="stylesheet" href="../assets/css/style.css">
     <script src="https://kit.fontawesome.com/69a2e32eeb.js" crossorigin="anonymous"></script>
+    
 
 </head>
 <body>
-    <section class="sec-1">
-        <nav>
-            <div class="logoname">
-                <h5>art<span>attack</span> </h5>
+    <nav>
+        <div class="logoname">
+            <h5>art<span>attack</span> </h5>
+        </div>
+       
+        
+        <div class="two">
+            <div class="menu">
+                <div class="menuitems">
+                    <ul>
+                        <li class="menuItems"><a href="../pages/landingpage.html">Home</a></li>
+                        <li class="menuItems"><a href="../pages/landingpage.html#sec-2">Market Place</a></li>
+                        <li class="menuItems"><a href="../pages/about-us.html">About Us</a></li>
+                        <li class="menuItems"><a href="#column">Contact Us</a></li>
+
+
+                    </ul>
+
+            <!-- Add icons -->
+
+                    <div class="profile">
+                        <a class="menuItems" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a class="menuItems" href="../index.html"><i class="fa-solid fa-user"></i></a>
+                
+                    </div>
+                </div>
+                
+
+                <!-- Hamburger Menu -->
+                <div class="hamburger">
+                    <span class="hamburgerspan"></span>
+                    <span class="hamburgerspan"></span>
+                    <span class="hamburgerspan"></span>
+
+                </div>
+
+
+
+
             </div>
-           
-            
-            <div class="two">
-                <div class="menu">
-                    <div class="menuitems">
-                        <ul>
-                            <li class="menuItems"><a href="#">Home</a></li>
-                            <li class="menuItems"><a href="#sec-2">Market Place</a></li>
-                            <li class="menuItems"><a href="../pages/about-us.html">About Us</a></li>
-                            <li class="menuItems"><a href="#column">Contact Us</a></li>
+
+        </div>
 
 
-                        </ul>
+    </nav>
+
+        <!-- cart section -->
+<section class="sec-cart">
     
-                <!-- Add icons -->
-    
-                        <div class="profile">
-                            <a class="menuItems" href="../pages/cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
-                            <a class="menuItems" href="../index.html"><i class="fa-solid fa-user"></i></a>
-                    
-                        </div>
-                    </div>
-                    
+    <!-- empty cart -->
 
-                    <!-- Hamburger Menu -->
-                    <div class="hamburger">
-                        <span class="hamburgerspan"></span>
-                        <span class="hamburgerspan"></span>
-                        <span class="hamburgerspan"></span>
+    <!-- refer to js for flesh -->
 
-                    </div>
+   
+   
+    <!-- full cart -->
+    <div class="full-cart">
+        <div class="cart-product">
+            <div class="cart-item">
 
+                <div class="item-des">
+                    <div class="item-image"><img src=""></div>
+                    <div class="item-name">Lorem Ipsum</div>
+                </div>
+                
+                
+                <div class="item-extras">
+                
+                    <button class="delete">Remove</button>
 
+                    <button class="decrement">--</button>
+                    <span>1</span>
+                    <button class="increment">+</button>
+                <div class="item-price">100</div>
 
 
                 </div>
 
+            
             </div>
 
-    
-        </nav>
-
-        <div class="maincontent">
-            <h1>Discover, Sell & Collect Rare <span>Art Work</span></h1>
-            <p>Digital market place for art collections.</p>
-            
-            <a href="#sec-2"><button>EXPLORE </button></a>
         </div>
-    </section>
         
-    <section id="sec-2" class="sec-2">
+        <div class="cart-summary">
 
-        <div class="filter">
-            <div class="container-header" id="container-header" >
-                <span class="new">Categories</span>
-            </div>
-            <div class="category-list">
-                <ul>
-                    <li id="all">All</li>
-                    <li id="animals">Animals</li>
-                    <li id="anime">Anime</li>
-                    <li id="beaches">Beaches </li>
-                    <li id="buildings">Buildings</li>
-                    <li id="cars">Cars</li>
-                    <li id="food">Food</li>
-                    <li id="landscape">Landscapes</li>
-                    <li id="mountains">Mountains</li>
-                    <li id="nature">Nature</li>
-                    <li id="space">Space</li>
-                    <li id="technology">Technology</li>
-                </ul>
-            </div>
         </div>
 
 
-
-        <div class="market-place">
-            <div class="container-header" >
-                <span class="top">New Arrivals </span>
-                <i class="fa-solid fa-arrow-right"></i>
-            </div>
-            <div class="grid-container" id="grid-container">   
-                <!-- refer to js for flesh -->
-            </div>
-            
-            <div class="container-header" >
-                <span>Painting </span>
-                <i class="fa-solid fa-arrow-right"></i>
-    
-            </div>
-            <div id="grid-container" class="newPainting">   
-                <!-- refer to js for flesh -->
-            </div>
-            
-            <div class="container-header" >
-                <span>Photography </span>
-                <i class="fa-solid fa-arrow-right"></i>
-    
-            </div>
-            <div id="grid-container" class="newPhotography">   
-                <!-- refer to js for flesh -->
-            </div>
-        </div>
-
+    </div>
+</section>
         
 
-    </section>
 
-    
 
+
+
+    <!-- footer -->
     <footer id="footer">
         <div id="newsletter" >
             <div class="newstext">
@@ -214,13 +198,16 @@
        
 
     </footer>
+
+
+
+
+
+
+        <!-- javascript codes -->
+
+        <script src="../assets/js/jquery-3.6.3.min.js"></script>
+        <script type="text/javascript" src="../assets/js/main.js"></script>
     
-
-
-    <!-- javascript codes -->
-
-    <script src="../assets/js/jquery-3.6.3.min.js"></script>
-    <script type="text/javascript" src="../assets/js/main.js"></script>
-
 </body>
 </html>

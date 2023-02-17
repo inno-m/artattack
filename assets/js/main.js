@@ -1358,4 +1358,145 @@ $(document).ready(()=>{
 
   
 
+
+
+    // ADDING TO CART
+    
+    // let categories = [...new Set(products.map((item)=>
+    // {return item}))]
+    
+    const cart = [];
+    
+        $(".cart").on('click',function(){
+           
+            addToCart(( $(".cart").index(this)))
+        })
+    
+    
+    
+       function updateButton(){
+            $(".notification").html(function(){
+            return(
+                 `${cart.length}
+                  `
+                )
+            })}
+       
+            updateButton()
+        
+    
+    function addToCart(a){
+        cart.push({...newProducts[a]})
+        displayCart()
+        updateButton()
+    
+    }
+    function removeFromCart(a){
+        // let index = $(".classList").index()
+        cart.splice(a,1)
+    
+        // cart.$(this).remove();
+        // $(".cartedList").remove()
+        displayCart()
+        updateButton()
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    function displayCart(a){
+             $(".cart-product").html(cart.map(function(iem){
+                        let {id} = iem 
+                    }))
+            let total = 0;
+            let j =0;
+            if(cart.length==0){
+                    $(".sec-cart").html(function(){
+                        $("#total").html("$0.00");
+                        return(`<div class="empty-cart">
+                        <img src="https://img.icons8.com/cute-clipart/64/null/shopping-cart.png"/>
+                        <h2>Your Cart is Empty !!</h2>
+                        <h3>Browse our Categories to Discover More</h3>
+                        <a href="./landingpage.html#sec-2"><button>MARKETPLACE</button></a>
+                    </div>`)
+                    })
+                    
+                
+                }
+                else{
+                    $(".cart-product").html(cart.map(function(item){
+                        let{name,price}=item;
+                        let i=0;
+                       
+                        
+                         $("#total").html(function(){
+                             var counts = 0;
+                            //  increment()
+                            total = total+(price+counts)
+                              return("$"+total+".00")
+                          })
+                        return(
+                            `<div class="cart-item">
+
+                            <div class="item-des">
+                                <div class="item-image"><img src=""></div>
+                                <div class="item-name">Lorem Ipsum</div>
+                            </div>
+                            
+                            
+                            <div class="item-extras">
+                            
+                                <button class="delete">Remove</button>
+            
+                                <button class="decrement">--</button>
+                                <span>1</span>
+                                <button class="increment">+</button>
+                            <div class="item-price">100</div>
+            
+            
+                            </div>`
+                        )
+                    }).join(''))
+                }
+    let value = $(".counter").html()
+    function increment(){
+         cart.at(( $(".btn").index(this)))
+         if(value ==value){
+            value++
+            }
+            $(".counter").html(value)
+             console.log(value);
+    }
+    function decrement(){
+          if(value > 1){
+            value--
+            }
+            $(".counter").html(value)
+             console.log(value);
+        }
+    // $(".counter").html(1)
+     $(".increment").on("click",function(){
+       
+             increment()
+       
+    })  
+     $(".decrement").on("click",function(){
+        decrement()
+    })   
+    $(".delete").on('click',function(){
+        // delete $(".cartedList")
+        removeFromCart($(".delete").index(this))
+    console.log("clicked")
+    })        
+            
+    }
+    
+    displayCart()
+
 });
