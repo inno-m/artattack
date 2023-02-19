@@ -1362,62 +1362,194 @@ $(document).ready(()=>{
 
     // ADDING TO CART
     
-    // let categories = [...new Set(products.map((item)=>
-    // {return item}))]
-    
     const cart = [];
+    $(".cart").on('click',function(){       
+    addToCart(( $(".cart").index(this)))
     
-        $(".cart").on('click',function(){
-           
-            addToCart(( $(".cart").index(this)))
-        })
+    })
+        function addToCart(a){
+        cart.push({...newProducts[a]})
+       
+        updateButton()
     
-    
-    
-       function updateButton(){
+    }
+    function updateButton(){
             $(".notification").html(function(){
             return(
                  `${cart.length}
                   `
                 )
             })}
+    updateButton()
+  
+  
+    $("#cartWindow").on("click",function(){
        
-            updateButton()
         
+        $(document.body).html(function(){
+              
+            return(`
+              <nav>
+        <div class="logoname">
+            <h5>art<span>attack</span> </h5>
+        </div>
+       
+        
+        <div class="two">
+            <div class="menu">
+                <div class="menuitems">
+                    <ul>
+                        <li class="menuItems"><a href="../pages/landingpage.html">Home</a></li>
+                        <li class="menuItems"><a href="../pages/landingpage.html#sec-2">Market Place</a></li>
+                        <li class="menuItems"><a href="../pages/about-us.html">About Us</a></li>
+                        <li class="menuItems"><a href="#column">Contact Us</a></li>
+
+
+                    </ul>
+
+            <!-- Add icons -->
+
+                    <div class="profile">
+                        <a class="menuItems" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a class="menuItems" href="../index.html"><i class="fa-solid fa-user"></i></a>
+                
+                    </div>
+                </div>
+                
+
+                <!-- Hamburger Menu -->
+                <div class="hamburger">
+                    <span class="hamburgerspan"></span>
+                    <span class="hamburgerspan"></span>
+                    <span class="hamburgerspan"></span>
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+
+    </nav>
+
+        <!-- cart section -->
+<section class="sec-cart"> 
+ 
+    <div class="full-cart">
+       <div class="cart-product"></div>
+        <div class="cart-summary">
+          <h6>Total</h6>
+          <h6 id="total">$0.00</h6>
+        </div>
+    </div>
+</section>
+        
+
+
+
+
+
+    <!-- footer -->
+    <footer id="footer">
+        <div id="newsletter" >
+            <div class="newstext">
+                <h4>Sign Up For Newsletter</h4>
+                <p>Get email updates about our latest products and <span>special offers.</span></p>
+                
+            </div>
+            <form action="">
+                <input type="email" placeholder="Enter your email...">
+                <button type="submit">SUBMIT</button>
+            </form>
+           
+        </div>
+
+
+        <!-- footer section -->
+
+
+        <div class="column" id="column">
+            <div class="logoname" id="logoname">
+                <h5>art<span>attack</span> </h5>
+            </div>
+            <div class="big-screen">
+                <div class="contacts">
+                    <h4>Contact</h4>
+                    <p><strong>Address: </strong>Tumaini, Ongata Rongai</p>
+                    <p><strong>Phone: </strong> <a href="tel:+254705036698">+2547 050 36698, +2547 592 42900</a> </p>
+            </div>
+            
+            <div class="">
+                <h4>Our Socials</h4>
+                    <div>
+                        <a href="https://www.instagram.com/innoxv/">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://wa.me/message/3OPSEQ47UDYYJ1">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+            </div>
+            <div class="about-account">
+                <div class="more">
+                    <h4>About Us</h4>
+                    <a href="">Delivery Information</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Terms & Conditions</a>
+                    <a href="">FAQ's</a>
+                    
+                </div>
+                <div class="more">
+                    <h4>My Account</h4>
+                    <a href="">Sign In</a>
+                    <a href="">View Cart</a>
+                    <a href="">Track My Order</a>
+                    <a href="">Help</a>
+                    
+                </div>
+            </div>
+            
+            <div class="colinstall">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                        <div class="row">
+                            <a href="https://itunes.apple.com/app/"><img src="../assets/img/appstore.png" alt=""></a>
+                            <a href="https://play.google.com/store/apps/"><img src="../assets/img/googleplay.png" alt=""></a>
+                        </div>
+            </div> 
+            
+            
+
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 - <a href="tel:+254705036698">WAZEE WAZIMA!!</a> </p>
+            </div>
     
-    function addToCart(a){
-        cart.push({...newProducts[a]})
-        displayCart()
-        updateButton()
-    
-    }
-    function removeFromCart(a){
-        // let index = $(".classList").index()
-        cart.splice(a,1)
-    
-        // cart.$(this).remove();
-        // $(".cartedList").remove()
-        displayCart()
-        updateButton()
-    
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    function displayCart(a){
-             $(".cart-product").html(cart.map(function(iem){
-                        let {id} = iem 
-                    }))
-            let total = 0;
-            let j =0;
-            if(cart.length==0){
-                    $(".sec-cart").html(function(){
+        </div>
+       
+
+    </footer>`)
+        })
+ 
+ function displayCart(a){
+      let total=0;
+      let totalItemPrice=0;
+      
+            if(cart.length == 0){
+                $(".sec-cart").html(function(){
                         $("#total").html("$0.00");
                         return(`<div class="empty-cart">
                         <img src="https://img.icons8.com/cute-clipart/64/null/shopping-cart.png"/>
@@ -1426,77 +1558,111 @@ $(document).ready(()=>{
                         <a href="./landingpage.html#sec-2"><button>MARKETPLACE</button></a>
                     </div>`)
                     })
-                    
-                
                 }
-                else{
-                    $(".cart-product").html(cart.map(function(item){
-                        let{name,price}=item;
-                        let i=0;
-                       
-                        
-                         $("#total").html(function(){
-                             var counts = 0;
-                            //  increment()
-                            total = total+(price+counts)
-                              return("$"+total+".00")
-                          })
+            else{
+                $(".cart-product").html(cart.map(function(item){
+                        let{name,price,image}=item;
+                      
+                 
                         return(
-                            `<div class="cart-item">
+                `       
+                         
+                         <div class="cart-item">
 
                             <div class="item-des">
-                                <div class="item-image"><img src=""></div>
-                                <div class="item-name">Lorem Ipsum</div>
+                                <div class="item-image"><img src="${image}"></div>
+                                <div class="item-name">${name}</div>
                             </div>
                             
                             
                             <div class="item-extras">
-                            
                                 <button class="delete">Remove</button>
-            
-                                <button class="decrement">--</button>
-                                <span>1</span>
+                                <button class="decrement">-</button>
+                                <span class="counter">1</span>
                                 <button class="increment">+</button>
-                            <div class="item-price">100</div>
-            
-            
-                            </div>`
-                        )
+                                <div class="item-price">${price}</div>
+                            </div>
+                </div>
+                `
+                            )
+                            
                     }).join(''))
+               
+                
                 }
+    
+    
+
     let value = $(".counter").html()
+    function updateProductPrice(){
+        cart.map(function(item){
+        let{price}=item;
+        totalItemPrice =value*price}
+       )
+        $(".item-price").html("$"+totalItemPrice+".00")
+     
+    }
+    function updateTotalPrice(){
+        cart.map((item)=>{
+            let allTotal=0;
+            let totalItemPrice=0;
+            let{price}=item
+            total = total+price
+            allTotal = totalItemPrice+total
+            $("#total").html("$"+allTotal+".00")
+        })
+      
+    }
+    
+       
+    updateProductPrice()
+    updateTotalPrice()
     function increment(){
-         cart.at(( $(".btn").index(this)))
          if(value ==value){
             value++
             }
-            $(".counter").html(value)
-             console.log(value);
+        $(".counter").html(function(){
+             return(value)
+            
+
+        })
+       updateProductPrice()
+        updateTotalPrice()
+    
+        console.log(value);
     }
-    function decrement(){
+    function decrement(a){
           if(value > 1){
             value--
             }
             $(".counter").html(value)
              console.log(value);
+            updateProductPrice()
+            updateTotalPrice()
         }
-    // $(".counter").html(1)
      $(".increment").on("click",function(){
-       
-             increment()
-       
+          increment()
     })  
      $(".decrement").on("click",function(){
         decrement()
-    })   
-    $(".delete").on('click',function(){
-        // delete $(".cartedList")
-        removeFromCart($(".delete").index(this))
-    console.log("clicked")
-    })        
-            
-    }
+      
+    })
+      function removeFromCart(a){
+        cart.splice(a,1)
+        displayCart()
+        updateButton()
+        
     
+    }
+    $(".delete").on('click',function(){
+    removeFromCart($(".delete").index(this))
+    console.log("clicked")
+    })    
+          
+            
+    } 
     displayCart()
+   
+    })
 
 });
