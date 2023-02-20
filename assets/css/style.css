@@ -11,6 +11,15 @@ body{
     
 }
 
+.scroll{
+    overflow-y: scroll; /* Enable scrolling */
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+
+.sec-1, .sec-2, .column{
+    scroll-snap-align: start;
+}
 
 main{
     height: 100vh;
@@ -319,6 +328,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .market-place{
