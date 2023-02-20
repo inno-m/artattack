@@ -331,7 +331,8 @@ nav{
     justify-content: center;
     align-items: center;
     padding: .5em 0;
-
+    
+    
 }
 
 .filter{
@@ -353,7 +354,7 @@ nav{
 #grid-container{
     display: grid;
     width: 95%;
-    height: 80vh;
+    /* height: 80vh; */
     grid-auto-columns:  200px;
     grid-auto-flow: column;
     grid-auto-rows: 100%;
@@ -1165,7 +1166,7 @@ footer .copyright{
     }
 
     .container-header .top, .container-header i{
-        margin-top: 8%;
+        /* margin-top: 8%; */
     }
 
     #container-header{
@@ -1459,17 +1460,17 @@ footer .copyright{
 
     /* scroll snapping */
     .scroll{
-        overflow-y: scroll; /* Enable scrolling */
-        scroll-snap-type: y mandatory;
-        height: 100vh; 
-    }
-    .scroll::-webkit-scrollbar, .grid-container-3::-webkit-scrollbar{
-        display: none;
-    }
-    
-    .sec-1, .sec-2, .column{
-        scroll-snap-align: start;
-    }
+    overflow-y: scroll; /* Enable scrolling */
+    scroll-snap-type: y mandatory;
+    height: 100vh; 
+}
+.scroll::-webkit-scrollbar, .grid-container-3::-webkit-scrollbar{
+    display: none;
+}
+
+.sec-1, .sec-2, .column{
+    scroll-snap-align: start;
+}
     
 }
 
@@ -1535,6 +1536,10 @@ footer .copyright{
         /* margin-bottom: 10%; */
         height: 20vh;
     }
+
+
+
+   
 }
 
 
