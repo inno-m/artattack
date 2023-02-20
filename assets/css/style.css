@@ -1275,7 +1275,7 @@ footer{
     background-image: url("./background/1441222.jpg");
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 95vh;
     width: 100%;
    
 }
@@ -1530,10 +1530,11 @@ footer .copyright{
     }
 
     #newsletter{
-        margin-top: 30%;
+        margin-top: 15%;
         /* margin-bottom: 10%; */
         height: 20vh;
     }
+    
 
     .sec-2{
         height: 130vh;
