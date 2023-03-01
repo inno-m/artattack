@@ -1586,7 +1586,7 @@ footer .copyright{
         /* margin-inline: 8em; */
     }
      .profile-list li{
-        padding: 0 .5em;
+        padding: .1 .5em;
         display: inline;
         /* border: 1px solid red; */
         white-space: nowrap;
