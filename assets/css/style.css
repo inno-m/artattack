@@ -1558,7 +1558,9 @@ footer .copyright{
     }
 
 
-
+    .upload-label{
+        padding: .3em 3.3em;
+    }
     .profile-filter{
         display: flex;
         width: 100%;
