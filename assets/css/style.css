@@ -1099,6 +1099,9 @@ footer .copyright{
     width: 0em;
 }
 
+.prof-radio{
+    display: flex;
+}
 .upload-label{
     outline: 1px solid darkslategrey;
     color: darkslategrey;
@@ -1565,8 +1568,14 @@ footer .copyright{
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
-        height: 65vh;
-        margin-bottom: 35%;
+        height: 80vh;
+        /* margin-bottom: 15%; */
+        box-shadow: none;
+
+    }
+
+    .profile-form{
+        margin-bottom: 20%;
     }
 
     .profile-list{
@@ -1607,6 +1616,7 @@ footer .copyright{
     /* .firstinlastout{
         margin-bottom: 50%;
     } */
+    
 
 }
 
