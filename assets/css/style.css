@@ -305,7 +305,7 @@ nav{
     margin-top: 2em;
     color: white;
     background: transparent;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 7px;
     font-size: 1.2em;
     transition: .3s ease;
