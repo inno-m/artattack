@@ -1138,6 +1138,7 @@ footer .copyright{
 
 .profile-form select{
     color: darkslategray;
+    background-color: #ccc;
     padding: .5em 0;
     width: 100%;
     outline: none;
@@ -1152,6 +1153,8 @@ footer .copyright{
     outline-color: darkslategrey;
     color: darkslategrey;
     transition: 0.3s ease;
+    background-color: #0000;
+    width: 100%;
 }
 .profile-form button:hover,.upload-label:hover{
     border-radius: .5em;
