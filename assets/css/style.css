@@ -1631,10 +1631,28 @@ footer .copyright{
         width: 100%;
     }
   
-    /* .firstinlastout{
-        margin-bottom: 50%;
-    } */
+    /* CART SECTION */
     
+    .full-cart{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .full-cart .cart-product{
+        width: 100%;
+        margin-bottom: 1.2em;
+    }
+    .full-cart .cart-summary{
+        width: 100%;
+        padding: 0;
+    }
+    
+    .full-cart .cart-item{
+        width: 99%;
+    }
+    .item-extras{
+        width: 50%;
+    }
 
 }
 
