@@ -1200,7 +1200,8 @@ footer .copyright{
     .menuitems{
         display: none;
         position: absolute;
-        background-color: black;
+        background-image: url("./background/1441222.jpg");
+
         top: 10%;
         right: 0;
         /* border-bottom-left-radius: 10px; */
