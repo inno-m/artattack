@@ -853,7 +853,7 @@ footer .copyright{
 .sec-cart{
     height: 100vh;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: #0002;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -984,7 +984,7 @@ footer .copyright{
 .full-cart .item-image{
     width: 100px;
     height: 80%;
-    outline: 1px solid green;
+    /* outline: 1px solid green; */
     align-self: center;
     margin: 0 .5em;
 }
@@ -1005,11 +1005,12 @@ footer .copyright{
     border-radius: 5px;
     border: none;
     font-size: 1em;
+    background-color: #0000;
 }
 
 .item-extras button:hover{
-    color: white;
-    background-color: darkslategrey;
+    color: black;
+    /* background-color: darkslategrey; */
     /* border: none; */
 }
 
@@ -1019,12 +1020,12 @@ footer .copyright{
 .item-extras .delete{
     padding: .5em;
     color: tomato;
-
+    font-size: 1.1em;
 }
 
 .item-extras .decrement, .item-extras .increment{
     padding: .5em;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 
@@ -1038,7 +1039,7 @@ footer .copyright{
 .sec-profile{
     height: 100vh;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: #0002;
     display: flex;
     /* align-items: center; */
     justify-content: space-around;
