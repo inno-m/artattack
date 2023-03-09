@@ -1660,6 +1660,7 @@ footer .copyright{
         width: 100%;
         /* height: 60vh; */
         margin-top: 20%;
+        font-weight: 300;
     }
     .profile-details{
         display: flex;
@@ -1683,6 +1684,8 @@ footer .copyright{
 
     .profile-form td{
         color: darkslategrey;
+        font-weight: 200;
+        font-size: 1.1em;
     }
 
     .profile-form input{
@@ -1690,13 +1693,16 @@ footer .copyright{
     }
     .profile-form select{
         width: 15em;
+        background-color: #ccc;
     }
     .profile-form button{
         width: 100%;
         background-color: #0000;
-        outline: 1px solid whitesmoke;
+        outline: 1px solid darkslategrey;
         color: darkslategray;
         border: none;
+        font-size: .8em;
+        font-weight: 200;
     }
 
     .profile-list{
