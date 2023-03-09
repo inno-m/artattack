@@ -1671,6 +1671,7 @@ footer .copyright{
         margin-top: 0;
         height: 100vh;
         justify-content: unset;
+        background-color: #0000;
     }
 
     .profile-form{
