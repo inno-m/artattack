@@ -338,7 +338,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -365,7 +365,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -390,7 +390,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -415,7 +415,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -482,7 +482,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -507,7 +507,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -532,7 +532,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -562,7 +562,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -587,7 +587,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -613,7 +613,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -643,7 +643,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -668,7 +668,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -694,7 +694,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -724,7 +724,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -749,7 +749,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -775,7 +775,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -805,7 +805,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -830,7 +830,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -856,7 +856,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -885,7 +885,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -910,7 +910,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -936,7 +936,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -966,7 +966,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -991,7 +991,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -1017,7 +1017,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -1046,7 +1046,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -1071,7 +1071,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -1097,7 +1097,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -1126,7 +1126,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -1151,7 +1151,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -1177,7 +1177,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -1206,7 +1206,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -1231,7 +1231,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -1256,7 +1256,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -1284,7 +1284,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -1309,7 +1309,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -1335,7 +1335,7 @@ $(document).ready(()=>{
         return(
             `<div class="grid-content">
             <img src=${image}>
-            <p style="color:white">${name}</p>
+            <p >${name}</p>
             <div class="extras">
                 <span class="stars">
                     <i class="fa-solid fa-star"></i>
