@@ -1576,10 +1576,10 @@ $(document).ready(()=>{
                             
                             
                             <div class="item-extras">
-                                <button class="delete">Remove</button>
-                                <button class="decrement">-</button>
+                                <button class="delete"><i class="fa-solid fa-trash"></i></button>
+                                <button class="decrement"><i class="fa-solid fa-square-minus"></i></button>
                                 <span class="counter">1</span>
-                                <button class="increment">+</button>
+                                <button class="increment"><i class="fa-solid fa-square-plus"></i></button>
                                 <div class="item-price">${price}</div>
                             </div>
                 </div>
