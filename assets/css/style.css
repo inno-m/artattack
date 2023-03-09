@@ -1194,18 +1194,22 @@ footer .copyright{
     .menuitems{
         display: none;
         position: absolute;
-        background-color: #008080;
+        background-color: black;
         top: 20%;
         right: 0;
         /* border-bottom-left-radius: 10px; */
         /* border-bottom-right-radius: 10px; */
         margin-top: 10%;
         height: 90vh;
+        width: 100%;
         
         transition: 0.5s ease;
+        /* align-items: flex-start; */
         justify-content: space-between;
-        padding: 2em 4em;
+        padding: 2em 0;
         /* transition: 3s ease; */
+        font-size: 1.5em;
+
     }
     .menuitems ul a, .profile a{
         margin-block: 1em;
@@ -1221,8 +1225,10 @@ footer .copyright{
     .menuitems.active ul a, .menuitems.active .profile{
     display: flex;
     flex-direction: column;
+    align-items: center;
     
 }
+
 
 .menu ul a:hover{
     color: black;
