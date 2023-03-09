@@ -1680,6 +1680,9 @@ footer .copyright{
         color: darkslategrey;
     }
 
+    .profile-form input{
+        width: 15em;
+    }
     .profile-form button{
         width: 100%;
         background-color: #0000;
@@ -1703,7 +1706,9 @@ footer .copyright{
         /* height: 1em; */
         width: 80%;
         /* margin-inline: 8em; */
+        
     }
+    
      .profile-list li{
         padding: .4em;
         display: inline;
@@ -1712,22 +1717,27 @@ footer .copyright{
         white-space: nowrap;
     }
 
-    .logout ul{
+    .logout ul {
         display: flex;
         /* height: 1em; */
         width: 100%;
         /* margin-inline: 8em; */
     }
-    .logout{
+    .logout ul a{
         display: flex;
+        margin-inline-end: 1em;
         width: 100%;
     }
+    
 
 
     
   
     /* CART SECTION */
-    
+    .sec-cart{
+        background: conic-gradient(at 0% 30%, #0002 30%, #0005 40%, #008080 70%);
+
+    }
     .full-cart{
         display: flex;
         flex-direction: column;
