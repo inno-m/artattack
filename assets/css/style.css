@@ -41,9 +41,12 @@ main{
     height: 80%;
     position: relative;
     border-radius: 10px;
-    /* outline: 1px solid rgba(255, 255, 255, 1);  */
-    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(255, 255, 255) 0px 0px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background-image: url("./background/1441222.jpg");
 
+    /* outline: 1px solid rgba(255, 255, 255, 1);  */
+    /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(255, 255, 255) 0px 0px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
+    background: conic-gradient(at 0% 30%, #0009  10%,  #008080 20%, #0009 40%);
+    
     /* box-shadow: ; */
 }
 
@@ -71,7 +74,7 @@ main{
 
 .content h3, .content p{
     margin: 0.7em 0;
-    color: whitesmoke;
+    color: #ccc;
 }
 
 .input{
@@ -97,7 +100,7 @@ input:focus{
 }
 
 .or{
-    color: whitesmoke;
+    color: #008080;
 }
 
 .button{
@@ -129,7 +132,7 @@ input:focus{
     border-radius: 50px;
     border: 1px solid #008080 ;
     background: transparent;
-    color: #008080;
+    color: whitesmoke;
     
 }
 
