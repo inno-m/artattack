@@ -242,8 +242,24 @@ nav{
 }
 .notification{
     font-size: .8em;
-    color: whitesmoke;
+    color: white;
+  background-color: #008080;
+  padding: .2em .4em;
+  /* width: .8em; */
+  border-radius: 50%;
+
+/* border: 1px solid red; */
+    
+  /* line-height: px; */
 }
+/* .profile span{
+  display: inline-block;
+  border-radius: 50%;
+  width: .8em;
+height: .8em;
+text-align: center;
+} */
+
 
 
 /* hamburger section */
