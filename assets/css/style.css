@@ -337,16 +337,21 @@ text-align: center;
 
 /* pre loader */
 #preloader {
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    color: white;
-    background-image: url("./background/1441222.jpg");
+    position:fixed;
+    left: 50%;
+    top: 40%;
+    /* right: 0; */
+    /* bottom: 0; */
+    /* color: white; */
+    /* background-image: url("./background/1441222.jpg"); */
     z-index: 9999;
-  }
+    width:200px;
+    height:200px;
+    /* transform-style:preserve-3d; */
+    perspective:1000;
   
+  }
+/*   
   #preloader:before {
     content: "";
     position: absolute;
@@ -359,10 +364,33 @@ text-align: center;
     height: 50px;
     margin: -12px 0 0 -12px;
     animation: spin 2s linear infinite;
+  } */
+.arc{
+    position:absolute; 
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width:100%;
+    height:100%;
+    border-style:solid;
+    border-color:#008080;
+    border-width:10px 0;
+    border-radius:50%;
+    filter:contrast(2) brightness(1.5) blur(2px);
   }
+  #preloader .arc:nth-child(1){
+    animation:rotate1 2s -1s linear infinite;
+  }
+  #preloader .arc:nth-child(2){
+    animation:rotate2 2s -0.5s linear infinite;
+  }
+  #preloader .arc:nth-child(3){
+    animation:rotate3 2s 0s linear infinite;
+  } 
 
 
-  
+/*   
    @keyframes spin {
     0% {
       transform: translate(-50%, -50%) rotate(0deg);
@@ -370,7 +398,32 @@ text-align: center;
     100% {
       transform: translate(-50%, -50%) rotate(360deg);
     }
+  }  */
+     
+   @keyframes rotate1 {
+    0% {
+      transform: rotateX(45deg) rotateY(45deg) rotateZ(0)
+    }
+    100% {
+     transform: rotateX(45deg) rotateY(45deg) rotateZ(360deg)
+    }
   } 
+   @keyframes rotate2 {
+    0% {
+      transform: rotateX(60deg) rotateY(0deg) rotateZ(0)
+    }
+    100% {
+     transform: rotateX(60deg) rotateY(0deg) rotateZ(360deg)
+    }
+  } 
+   @keyframes rotate3 {
+    0% {
+      transform: rotateX(45deg) rotateY(-45deg) rotateZ(0)
+    }
+    100% {
+     transform: rotateX(45deg) rotateY(-45deg) rotateZ(360deg)
+    }
+  }  
   
 
 
