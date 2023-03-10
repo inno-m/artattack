@@ -41,12 +41,15 @@ main{
     height: 80%;
     position: relative;
     border-radius: 10px;
-    background-image: url("./background/1441222.jpg");
+    /* background-image: url("./background/1441222.jpg"); */
 
     /* outline: 1px solid rgba(255, 255, 255, 1);  */
     /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(255, 255, 255) 0px 0px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
-    background: conic-gradient(at 0% 30%, #0009  10%,  #008080 20%, #0009 40%);
+    /* background: conic-gradient(at 0% 30%, #0009  10%,  #0003 70%, #0009 40%); */
+    border: 1px solid transparent;
+    border-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5) 25%, transparent 25%, transparent 25%, grey  10%, #008080 75%, transparent 80%, transparent) 10;
     
+    box-shadow: 0 0 20px 10px black;
     /* box-shadow: ; */
 }
 
