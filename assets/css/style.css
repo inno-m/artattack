@@ -391,6 +391,7 @@ text-align: center;
     width: 100%;
     position:absolute;
     flex-direction: column;
+    
 }
 .preloader {
     position:relative;
@@ -1461,7 +1462,7 @@ footer .copyright{
 /* main content */
 .maincontent{
     color: whitesmoke;
-    padding: 0;
+    padding: 0 1em;
 }
 
 .maincontent h1{
@@ -2076,15 +2077,12 @@ footer .copyright{
     }
     .market-place {
         height: 120vh;
-        width: 110%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: start;
         align-items: center;
         margin: 0;
-    }
-    .filter{
-        width: 110%;
     }
 
    
