@@ -1461,7 +1461,7 @@ footer .copyright{
 /* main content */
 .maincontent{
     color: whitesmoke;
-    padding: 0 1em;
+    padding: 0;
 }
 
 .maincontent h1{
@@ -2076,12 +2076,15 @@ footer .copyright{
     }
     .market-place {
         height: 120vh;
-        width: 100%;
+        width: 110%;
         display: flex;
         flex-direction: column;
         justify-content: start;
         align-items: center;
         margin: 0;
+    }
+    .filter{
+        width: 110%;
     }
 
    
