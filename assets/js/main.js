@@ -1391,7 +1391,7 @@ $(document).ready(()=>{
             return(`
               <nav>
         <div class="logoname">
-            <h5>art<span>attack</span> </h5>
+            <h5>art<span>ify</span> </h5>
         </div>
        
         
@@ -1473,7 +1473,7 @@ $(document).ready(()=>{
 
         <div class="column" id="column">
             <div class="logoname" id="logoname">
-                <h5>art<span>attack</span> </h5>
+                <h5>art<span>ify</span> </h5>
             </div>
             <div class="big-screen">
                 <div class="contacts">
