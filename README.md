@@ -1,2 +1,3 @@
-# Art store
+# Online Art store
+
 This is a basic ecommerce art website
