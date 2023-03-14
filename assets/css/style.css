@@ -1199,7 +1199,7 @@ footer .copyright{
     height: 80vh;
     width: 65%;
     margin-top: 8%;
-    background-color: #0002;
+    /* background-color: #0002; */
     display: flex;
     /* align-items: center; */
     justify-content: space-between;
@@ -1215,7 +1215,7 @@ footer .copyright{
     justify-content: space-between;
     /* border: 1px solid darkslategray; */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-    background-color: #0002;
+    /* background-color: #0002; */
 
     border-radius: 8px;
 }
@@ -1324,15 +1324,133 @@ footer .copyright{
 
 
 
+        /* ADMIN PAGE */
+    
+.dashboard{
+    height: 100vh;
+    width: 100%;
+    background: conic-gradient(at 0% 30%, #0002 30%, #0005 40%, #008080 50%);
+    
+}
+
+.dashboard-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em 3em;
+    width: 100%;
+    height: 100vh;
+}
+
+.admin-filter{
+    height: 50%;
+    width: 15%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.admin-list{
+    color: #008080;
+    padding: .5em;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.admin-list ul{
+    list-style: none;
+}
+
+.admin-list li a{
+    text-decoration: none;
+    color: #008080;
+}
+.admin-list li{
+    padding: .5em .2em;
+    font-size: 1.1em;
+    margin-block: .2em;
+}
+
+.admin-list li:hover{
+    color: #008080;
+    outline: .1em solid #008080;
+}
 
 
 
+.admin-content{
+    height: 80vh;
+    width: 65%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.content-scroll{
+    height: 80vh;
+    overflow-y: scroll;
+    padding: 0 1em;
+}
+.content-scroll::-webkit-scrollbar{
+    display: none;
+}
+
+.dashboard-link{
+    width: 100%;
+    height: 100%;
+    padding: 1em 0;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1em ;
+}
+
+.banner-1,.banner-2,.banner-3{
+    height: 5em;
+    width: 30%;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-1{
+    background-color: #003366;
+}
+.banner-2{
+    background-color: #008080;
+}
+.banner-3{
+    background-color: #4169E1;
+
+}
+
+ .span-1{
+    color: whitesmoke;
+    font-size: 1.1em;
+}
+.span-2{
+    color: #ccc;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.dashboard-content{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    border-radius: .5em;
+    height: 65vh;
+    width: 100%;
+}
 
 
-
-
-
-
+.customers-link, .orders-link,.products-link,.messages-link{
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    margin-block: 1em;
+}
 
 
 
