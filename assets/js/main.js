@@ -1439,11 +1439,35 @@ $(document).ready(()=>{
 <section class="sec-cart"> 
  
     <div class="full-cart">
-       <div class="cart-product"></div>
-        <div class="cart-summary">
-          <h6>Total</h6>
-          <h6 id="total">$0.00</h6>
-        </div>
+       <div class="cart-product"> </div>
+
+        
+
+            <div class="cart-summary">
+                <div class="cart-header"> Cart Summary </div>
+          
+                <div class="summary-extras"> 
+                    <div class="summary-contents"> Sub-total  </div>
+                    <div class="summary-contents"> Shipping fee </div>
+                    <div class="summary-contents"> VAT   </div>
+                    <div class="summary-option">
+                    <select>
+                        <option value="mpesa">Mpesa</option>
+                        <option value="airtel-money">Airtel Money</option>
+                        <option value="t-kash">T-Kash</option>
+
+                    </select>
+                    </div>
+                
+                </div>
+
+
+                <button class="total-sec">
+                <span class="total-name"> Checkout </span>
+                <span id="total">$0.00</span></button>
+
+                
+            </div>
     </div>
 </section>
         
