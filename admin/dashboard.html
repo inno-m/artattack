@@ -1,100 +1,334 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <script src="https://kit.fontawesome.com/69a2e32eeb.js" crossorigin="anonymous"></script>
-    
-    <title>Dashboard</title>
+    <link rel="stylesheet" href="admin.css">
+    <title>Admin</title>
 </head>
+
 <body>
-    <section class="dashboard">
-        <div class="dashboard-container">
-            <div class="admin-filter">
-                <div class="admin-list">
-                
-                    <div class="upper">
-                        <ul>
-                            <li id=""> <a href="#1">Dashboard</a></li>
-                            <li id=""><a href="#2">Customers</a></li>
-                            <li id=""><a href="#3">Orders</a></li>
-                            <li id=""><a href="#4">Products</a></li>
-                            <li id=""><a href="#5">Messages</a></li>
-                        </ul>
-                    
+    <main class="a23">
+        <section class="b20">
+            <header>
+                <h5>art<span>ify</span> </h5>
+            </header>
+            <div class="navigation-links">
+                <a href="#dashboard">Dashboard</a>
+                <a href="#customers">Customers</a>
+                <a href="#orders">Orders</a>
+                <a href="#products">Products</a>
+                <a href="#">Messages</a>
+            </div>
+        </section>
+        <section class="b21">
+            <div class="b21a1" id="dashboard">
+                <div class="b21a">
+                    <h5>Dashboard</h5>
+                </div>
+                <div class="b21b">
+                    <div class="overview">
+                        <table>
+                            <tr>
+                                <td>Sales</td>
+                                <td>icon</td>
+                            </tr>
+                            <tr>
+                                <td>price</td>
+                            </tr>
+                            <tr>
+                                <td>increment/decrement</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td>Income</td>
+                                <td>icon</td>
+                            </tr>
+                            <tr>
+                                <td>price</td>
+                            </tr>
+                            <tr>
+                                <td>increment/decrement</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td>Expenses</td>
+                                <td>icon</td>
+                            </tr>
+                            <tr>
+                                <td>price</td>
+                            </tr>
+                            <tr>
+                                <td>increment/decrement</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td>Products</td>
+                                <td>icon</td>
+                            </tr>
+                            <tr>
+                                <td>Total</td>
+                            </tr>
+                            <tr>
+                                <td>increment/decrement</td>
+                            </tr>
+                        </table>
                     </div>
-                    
-
-                    <div class="logout">
-                        <ul>
-                    <li> <a href="./login.html"> <div>Log Out</div> <div><i class="fa-solid fa-right-from-bracket"></i></div></a>  </li>
-
-                        </ul>
+                    <div class="analysis">
+                        <span>Analysis</span>
+                    </div>
+                    <div class="recent-orders">
+                        <span>Recent orders</span>
+                        <div class="table">
+                            <table>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Quantity</th>
+                                    <th>price</th>
+                                    <th>Date</th>
+                                    <th>Status</th>
+                                </tr>
+                                <tr>
+                                    <td>Art1</td>
+                                    <td>1</td>
+                                    <td>$120</td>
+                                    <td>1/1/2000</td>
+                                    <td>delivered</td>
+                                </tr>
+                                <tr>
+                                    <td>Art2</td>
+                                    <td>3</td>
+                                    <td>$530</td>
+                                    <td>1/1/2030</td>
+                                    <td>pending</td>
+                                </tr>
+                                <tr>
+                                    <td>Art3</td>
+                                    <td>1</td>
+                                    <td>$90</td>
+                                    <td>1/1/2020</td>
+                                    <td>out of stock</td>
+                                </tr>
+                                <tr>
+                                    <td>Art4</td>
+                                    <td>4</td>
+                                    <td>$1020</td>
+                                    <td>23/4/2033</td>
+                                    <td>delivered</td>
+                                </tr>
+                            </table>
+                        </div>
 
                     </div>
                 </div>
-            </div>
-    
-            <div class="admin-content">
-                <div class="content-scroll">
-                    <div class="dashboard-link" id="1">
-                            <div class="banner">
-                                <div class="banner-1">
-                                    <span class="span-1">Total Sales</span>
-                                    <span class="span-2">500,000 +</span>
-                                </div>
-                                <div class="banner-2">
-                                    <span class="span-1">Total Income</span>
-                                    <span class="span-2">$ 1M</span>
-                                </div>
-                                <div class="banner-3">
-                                    <span class="span-1">Total Products</span>
-                                    <span class="span-2">100,000 +</span>
-                                </div>
-            
+                <div class="b21a1" id="customers">
+                    <div class="b21a">
+                        <h5>Customers</h5>
+                    </div>
+                    <div class="b21b">
+
+                        <div class="recent-orders">
+                            <span>Customer Records</span>
+                            <div class="table">
+                                <table>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Email</th>
+                                        <th>Phone Number</th>
+                                        <th>Location</th>
+                                        <th>Status</th>
+                                    </tr>
+                                    <tr>
+                                        <td>John</td>
+                                        <td>john@gmail.com</td>
+                                        <td>+25478784987</td>
+                                        <td>Kitengela</td>
+                                        <td>delivered</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Peter</td>
+                                        <td>peter@gmail.com</td>
+                                        <td>+25478784987</td>
+                                        <td>Rongai</td>
+                                        <td>pending</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ann</td>
+                                        <td>ann@gmail.com</td>
+                                        <td>+25478784987</td>
+                                        <td>Busia</td>
+                                        <td>Too far</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Betty</td>
+                                        <td>betty1@gmail.com</td>
+                                        <td>+25478784987</td>
+                                        <td>Migori</td>
+                                        <td>In process</td>
+                                    </tr>
+                                </table>
                             </div>
-                            <div class="dashboard-content">
-                                <!-- add content -->
+
+                        </div>
+                    </div>
+                    <div class="b21a1" id="orders">
+                        <div class="b21a">
+                            <h5>Full Orders</h5>
+                        </div>
+                        <div class="recent-orders">
+                            <span>Orders</span>
+                            <div class="table">
+                                <table>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Quantity</th>
+                                        <th>price</th>
+                                        <th>Date</th>
+                                        <th>Status</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Art1</td>
+                                        <td>1</td>
+                                        <td>$120</td>
+                                        <td>1/1/2000</td>
+                                        <td>delivered</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Art2</td>
+                                        <td>3</td>
+                                        <td>$530</td>
+                                        <td>1/1/2030</td>
+                                        <td>pending</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Art3</td>
+                                        <td>1</td>
+                                        <td>$90</td>
+                                        <td>1/1/2020</td>
+                                        <td>out of stock</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Art4</td>
+                                        <td>4</td>
+                                        <td>$1020</td>
+                                        <td>23/4/2033</td>
+                                        <td>delivered</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Art1</td>
+                                        <td>1</td>
+                                        <td>$120</td>
+                                        <td>1/1/2000</td>
+                                        <td>delivered</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Art2</td>
+                                        <td>3</td>
+                                        <td>$530</td>
+                                        <td>1/1/2030</td>
+                                        <td>pending</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Art3</td>
+                                        <td>1</td>
+                                        <td>$90</td>
+                                        <td>1/1/2020</td>
+                                        <td>out of stock</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Art4</td>
+                                        <td>4</td>
+                                        <td>$1020</td>
+                                        <td>23/4/2033</td>
+                                        <td>delivered</td>
+                                    </tr>
+                                </table>
                             </div>
+
+                        </div>
                     </div>
+                    <div class="b21a1" id="products">
+                        <div class="b21a">
+                            <h5>Products</h5>
+                        </div>
+                        <div class="filter">
+                            <div class="container-header" id="container-header">
+                                <span class="new">Categories</span>
+                            </div>
+                            <div class="category-list">
+                                <ul>
+                                    <li id="all">All</li>
+                                    <li id="animals">Animals</li>
+                                    <li id="anime">Anime</li>
+                                    <li id="beaches">Beaches </li>
+                                    <li id="buildings">Buildings</li>
+                                    <li id="cars">Cars</li>
+                                    <li id="food">Food</li>
+                                    <li id="landscape">Landscapes</li>
+                                    <li id="mountains">Mountains</li>
+                                    <li id="nature">Nature</li>
+                                    <li id="space">Space</li>
+                                    <li id="technology">Technology</li>
+                                </ul>
+                            </div>
+                        </div>
 
 
 
+                        <div class="market-place">
+                            <div class="container-header">
+                                <span class="top">New Arrivals </span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                            <div class="grid-container" id="grid-container">
+                                <!-- refer to js for flesh -->
+                            </div>
 
-                    <div class="customers-link" id="2">
+                            <div class="container-header">
+                                <span>Painting </span>
+                                <i class="fa-solid fa-arrow-right"></i>
 
-                    
+                            </div>
+                            <div id="grid-container" class="newPainting">
+                                <!-- refer to js for flesh -->
+                            </div>
+
+                            <div class="container-header">
+                                <span>Photography </span>
+                                <i class="fa-solid fa-arrow-right"></i>
+
+                            </div>
+                            <div id="grid-container" class="newPhotography">
+                                <!-- refer to js for flesh -->
+                            </div>
+                        </div>
                     </div>
-                    <div class="orders-link" id="3">
-
-                    
-                    </div>
-                    <div class="products-link" id="4">
-
-                    
-                    </div>
-                    <div class="messages-link" id="5">
-
-                    
-                    </div>
-
-
                 </div>
 
-                
-
-
-
-
-
-
-
-
+        </section>
+        <section class="b22">
+            <header>
+                <h3>profile</h3>
+            </header>
+            <div class="profile">
+                <ul>
+                    <li><img src="pr.jpg" alt=""></li>
+                    <li>Ibrahim Obinchu</li>
+                </ul>
             </div>
-        </div>
-        
-    </section>
-</body>
+            <div class="recent-activities">
+                <span>Recent Activities</span>
+                <div class="activities">
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="../assets/js/jquery-3.6.3.min.js"></script>
+    <script type="text/javascript" src="../assets/js/main.js"></script>
+
 </html>
