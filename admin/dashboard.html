@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/admin.css">
+    <script src="https://kit.fontawesome.com/69a2e32eeb.js" crossorigin="anonymous"></script>
+    
     <title>Admin</title>
 </head>
 
@@ -15,13 +17,36 @@
             <header>
                 <h5>art<span>ify</span> </h5>
             </header>
+            <!-- <header>
+                <h3>profile</h3>
+            </header> -->
+            <div class="profile">
+                <ul>
+                    <li><img src="../assets/img/pr.jpg" alt=""></li>
+                    <li><div class="b201">
+                            <div>Ibrahim Obinahu</div>
+                            <div>
+                                <a href="../admin/index.html">
+                                    <i class="fa-solid fa-right-from-bracket"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- <div class="recent-activities">
+                <span>Recent Activities</span>
+                <div class="activities">
+                </div>
+            </div> -->
             <div class="navigation-links">
                 <a href="#dashboard">Dashboard</a>
                 <a href="#customers">Customers</a>
                 <a href="#orders">Orders</a>
                 <a href="#products">Products</a>
-                <a href="#">Messages</a>
+                <a href="#messages">Messages</a>
             </div>
+            
         </section>
         <section class="b21">
             <div class="b21a1" id="dashboard">
@@ -30,7 +55,7 @@
                 </div>
                 <div class="b21b">
                     <div class="overview">
-                        <table>
+                        <!-- <table>
                             <tr>
                                 <td>Sales</td>
                                 <td>icon</td>
@@ -77,7 +102,21 @@
                             <tr>
                                 <td>increment/decrement</td>
                             </tr>
-                        </table>
+                        </table> -->
+
+                        <div class="banner-1">
+                            <div class="span-1">Total Products</div>
+                            <div class="span-2">500,000 +</div>
+                        </div>
+                        <div class="banner-2">
+                            <div class="span-1">Total Sales</div>
+                            <div class="span-2">$ 1M +</div>
+                        </div>
+                        <div class="banner-3">
+                            <div class="span-1">Total Products</div>
+                            <div class="span-2">350,000 +</div>
+                        </div>
+
                     </div>
                     <div class="analysis">
                         <span>Analysis</span>
@@ -132,7 +171,7 @@
                     </div>
                     <div class="b21b">
 
-                        <div class="recent-orders">
+                        <div class="recent-orders" id="aa">
                             <span>Customer Records</span>
                             <div class="table">
                                 <table>
@@ -180,7 +219,10 @@
                         <div class="b21a">
                             <h5>Full Orders</h5>
                         </div>
-                        <div class="recent-orders">
+                    <div class="b21b">
+
+                        
+                        <div class="recent-orders" id="aa2">
                             <span>Orders</span>
                             <div class="table">
                                 <table>
@@ -258,7 +300,7 @@
                         </div>
                         <div class="filter">
                             <div class="container-header" id="container-header">
-                                <span class="new">Categories</span>
+                                <!-- <span class="new">Categories</span> -->
                             </div>
                             <div class="category-list">
                                 <ul>
@@ -308,27 +350,32 @@
                             </div>
                         </div>
                     </div>
+                    <div class="b21a1" id="messages">
+                        <div class="b21a">
+                            <h5>Messages</h5>
+                            
+                        </div>
+                        <div class="b21b">
+    
+                            <div class="recent-orders" id="aa1">
+                                <!-- <span>Messages</span> -->
+                                <div class="message">
+                                    <img src="https://img.icons8.com/fluency/96/null/no-message.png"/>
+                                </div>
+                                <div class="message-content">
+                                    <span>No New Messages</span>
+                                </div>
+                                
+                            </div>
+                        </div>
                 </div>
-
-        </section>
-        <section class="b22">
-            <header>
-                <h3>profile</h3>
-            </header>
-            <div class="profile">
-                <ul>
-                    <li><img src="../assets/img/pr.jpg" alt=""></li>
-                    <li>Ibrahim Obinchu</li>
-                </ul>
             </div>
-            <div class="recent-activities">
-                <span>Recent Activities</span>
-                <div class="activities">
-                </div>
+            </div>
             </div>
         </section>
+        
     </main>
     <script src="../assets/js/jquery-3.6.3.min.js"></script>
     <script type="text/javascript" src="../assets/js/main.js"></script>
-
+</body>
 </html>
