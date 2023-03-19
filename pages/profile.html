@@ -69,11 +69,12 @@
                 
                     <div class="upper">
                         <ul>
-                            <li id="profile">Profile</li>
-                            <li id="">Account Balance</li>
-                            <li id="">Address Book</li>
-                            <li id="">My Orders </li>
-                            <li id="">Messages</li>
+                            <a href="#my-profile"><li id="">Overview</li></a>
+                            <a href="#edit-profile"><li id="">Edit Profile</li></a>
+                            <a href="#balalance"><li id="">Account Balance</li></a>
+                            <a href="#address-book"><li id="">Address Book</li></a>
+                            <a href="#my-orders"><li id="">My Orders </li></a>
+                            <a href="#my-messages"><li id="">Messages</li></a>
                         </ul>
                     
                     </div>
@@ -81,7 +82,7 @@
 
                     <div class="logout">
                         <ul>
-                    <li> <a href="./login.html"> <div>Log Out</div> <div><i class="fa-solid fa-right-from-bracket"></i></div></a>  </li>
+                            <li> <a href="./login.html"> <div>Log Out</div> <div><i class="fa-solid fa-right-from-bracket"></i></div></a> </li>  
 
                         </ul>
 
@@ -92,64 +93,99 @@
 
         </div>
 
+
         <div class="profile-details">
-            <div class="firsinlastout">
-                <form action="#" class="profile-form">
-                    <table>
-                        <tr>
-                            <td>Email: </td>
-                            <td><input type="email" name="" id="" placeholder="johndoe@gmail.com" >
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Phone: </td>
-                            <td><input type="phone" name="" id="" placeholder="254712345678" readonly>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Name: </td>
-                            <td><input type="text" name="" id="" placeholder="John Doe" readonly></td>
-                        </tr>
-                        <tr>
-                            <td>Gender: </td>
-                            <td>
-                                <select name="Gender" id="">
-                                    <option value="male">Male</option>
-                                    <option value="female">Female</option>
-                                    <option value="non-binary">Non Binary</option>
-                                </select>
-                            
-                            </td>
-                                
-                        </tr>
-                        <tr>
-                            <td>Birthday: </td>
-                            <td><input type="date" name="" id="" ></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            
-                            <td><button type="submit" >UPDATE</button></td>
-                        </tr>
-                        
-                    </table>
     
-    
-                </form>
-            </div>
-
-
-            <div class="lastinfastout">
-                <div class="profile-image">
+           
+           <!--  -->
+           <div class="my-profile" id="my-profile">
+                    <div class="heading">
+                        <span>Account Overview</span>
+                    </div>
                     
-                </div>
-                <label for="upload" class="upload-label">UPLOAD</label>
-                <input type="file" id="upload" name="filename" style="visibility:hidden;">
+                    <div class="after-heading">
+                        
+                        <div class="profile-pic">
+                            <div class="profile-1">
+                                <img src="../assets/img/pr.jpg" alt="">
+                            </div>
+                            <div class="profile-2">
+                                <span class="prof-2-1">
+                                    User 2023
+                                </span>
+                                <span class="prof-2-2">
+                                    Joined : <code>1.1.2023</code>
+                                </span>
+                                <a href="#edit-profile"><button class="edit-button">Edit Profile</button></a>
+                            </div>
+                        </div>
+                        
+                        <div class="profile-info">
+                            <table>
+                                <tr>
+                                    <td class="td-1">Username</td>
+                                    <td class="td-2">User 2023</td>
+                                </tr>
+                                <tr>
+                                    <td class="td-1">Phone Number</td>
+                                    <td class="td-2">0705036698</td>
+                                </tr>
+                                <tr>
+                                    <td class="td-1">Email</td>
+                                    <td class="td-2">user2023@artify.com</td>
+                                </tr>
+                                <tr>
+                                    <td class="td-1">Gender</td>
+                                    <td class="td-2">Male</td>
+                                </tr>
+                                <tr>
+                                    <td class="td-1">Address</td>
+                                    <td class="td-2">125 Ongata Rongai, Kenya</td>
+                                </tr>
+                                
+                                
+                            </table>
+                        </div>
+                        
+                    </div>
+                    <div class="something">
+                        <div class="analysis">
+                            <div class="mini-heading">
+                                <span>Recent Activities</span>
+                            </div>
+                        </div>
+                        <div class="last-bit">
+                            <div class="mini-heading">
+                                <span>Subscriptions</span>
+                            </div>
+                        </div>
+                    </div>
             </div>
            
-            
-            
+            <!-- next section -->
+            <div class="my-profile" id="edit-profile">
+                <div class="heading">
+                    <span>Edit Profile</span>
+                </div>
+                
+                <div class="after-heading">
+                    <div class="overview">
+                        
+                    </div>
+                    
+                    
+                </div>
+                <div class="something">
+                    <div class="analysis">
+
+                    </div>
+                    <div class="last-bit">
+
+                    </div>
+                </div> 
+            </div>
         </div>
+        
     </section>
 
 
