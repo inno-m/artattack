@@ -109,6 +109,8 @@ header h5 span{
     padding:.5em;
     font-size:1.2em;
     margin:.3em 0;
+    transition: .3s ease;
+
 }
 .navigation-links a:hover{
     color:whitesmoke;
